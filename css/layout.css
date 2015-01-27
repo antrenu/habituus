@@ -1,0 +1,342 @@
+/*
+* Tallinn (HTML) V1.0
+* Copyright 2014, Limitless LLC
+* www.limitless.company
+*/
+
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+
+/* #Page Styles
+================================================== */
+
+/* #Media Queries
+================================================== */
+
+	@media only screen and (min-width: 1024px) {
+
+
+	}	
+
+	@media only screen and (min-width: 1000px) and (max-width: 1024px) {
+
+		.work .offset, .album .offset, .blog .offset {
+			margin: 0px auto;
+			text-align: left;
+			width: 1000px;
+		}
+
+		.work .row, .album .row, .blog .row {
+			margin-right: 40px !important;
+		}
+
+		.navigation .control {
+			left: 15px;
+			width: 60px;
+		}
+
+
+	}
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+
+
+	}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+
+		body {
+			overflow-x: hidden;
+		}		
+
+		.wrapper {
+
+		}
+
+		.offset {
+			padding: 100px 20px 50px; 
+		}
+
+		/* #.Basic
+		================================================== */
+		.page {
+			overflow-y: auto;
+		}		
+
+		.page .cover {
+			display: block;
+			left: 0px;
+			position: relative;
+			right: 0px;
+			top: 117px;
+			width: auto;
+		}
+
+		.page .content {
+			background-color: #ffffff;
+			left: 0px;
+			padding: 20px;
+			right: 0px;
+			text-align: center;
+			top: 0px;
+		}
+
+		/* #.Header
+		================================================== */
+
+		.header {
+			padding: 44px 20px;
+		}
+
+		/* #.Navigation
+		================================================== */
+	
+		.navigation .copyright {
+			bottom: 0px;
+			display: none;
+			font-size: 14px;
+			letter-spacing: 0.3em;
+			opacity: 0.5;
+			position: absolute;
+			right: 0px;
+			text-align: right;
+			text-transform: uppercase;
+			width: 600px;
+		}
+
+		.navigation .socials {
+			bottom: 0px;
+			left: 20px;
+			position: absolute;
+			right: 20px;
+			text-align: center;
+			width: auto;
+		}
+
+		/* #.Home
+		================================================== */
+
+		.home .discover {
+			bottom: 40px;
+		}
+
+		.home .flex-control-nav, .home .flex-direction-nav {
+			display: none;
+		}
+
+		/* #.About
+		================================================== */
+
+		section.about .cover {
+			background-image: none;
+		}
+
+		/* #.Work
+		================================================== */
+		
+		section.work {
+			position: relative;
+		}
+
+		section.work .navigate {
+			height: 40px;
+			left: 0px;
+			position: relative;
+			text-align: left;
+			width: auto;
+		}
+
+		section.work .navigate ul {
+			display: none;
+		}
+
+		section.work .navigate select {
+			border: 2px solid #000000;
+			display: block;
+			height: 40px;
+			text-align: left;
+			width: 100%;
+		}
+
+		section.work .navigate option {
+			color: #cccccc;
+			letter-spacing: 0.3em;
+			text-transform: uppercase;
+		}
+
+		section.work .stream {
+			display: block;
+			text-align: left;
+			margin-bottom: 50px;
+			margin-left: 0px;
+			margin-right: 0px;
+			margin-top: 20px;
+			position: relative;
+		}
+
+		section.work .stream .row {
+			margin-bottom: 25px;
+		}
+
+		section.work .stream .row:last-child {
+			margin-bottom: 0px !important;
+		}
+
+		.work-preview {
+			padding: 0px 50px;
+		}
+
+		.work-preview .info {
+			text-align: center;
+		}
+
+		.work-preview .meta {
+			display: none;
+		}
+
+		.work-preview .close {
+			display: inline-block;
+			padding-right: 28px;
+			position: relative;
+		}
+
+		.work-preview .nav .next {
+			right: -20px;
+		}
+
+		.work-preview .nav .prev {
+			left: -20px;
+		}
+
+
+		/* #.Blog
+		================================================== */
+
+		.blog .post {
+			margin-bottom: 10px;
+		}
+
+		.blog .post {
+			display: inline-block;
+			float: none;
+			height: 400px;
+			margin-bottom: 50px;
+			width: 100%;
+		}
+
+		.blog .post .cover {
+			background-color: #ffffff;
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			bottom: 0px;
+			cursor: pointer;
+			left: 0px;
+			position: absolute;
+			right: 0px;
+			top: 0px;
+		}
+
+		.blog .post .info {
+			background-color: #b0b0b0b0;
+			bottom: 0px;
+			cursor: pointer;
+			left: 0px;
+			padding: 26px;
+			position: absolute;
+			right: 0px;
+			text-align: left;
+			top: 280px;
+		}
+
+		.blog .row {
+			margin-bottom: 0px;
+		}
+
+		.blog .post .overlay {
+			padding: 20px 20px;
+		}
+
+		.blog .post .title {
+			font-size: 11px;
+			letter-spacing: 1px;
+			line-height: 20px;
+		}
+
+		.article .entry-thumbnail {
+			margin-bottom: 0px;
+		}
+
+		.article .entry-title {
+			font-size: 36px;
+			letter-spacing: 4px;
+			line-height: 40px;
+		}
+
+		.article .entry-meta {
+			margin-bottom: 20px;
+		}
+
+		.article .social {
+			margin-top: 0px;
+			text-align: center;
+		}
+
+		.article .author {
+			margin-top: 0px;
+			text-align: center;
+		}
+
+		/* #.Contact
+		================================================== */
+
+		section.contact .cover {
+			background-image: none;
+		}
+
+		section.contact .info {
+			margin-bottom: 45px;
+			margin-top: 45px;
+			text-align: center;
+		}
+
+		/* #.Footer
+		================================================== */
+
+		.footer {
+			bottom: 45px;
+			left: 0px;
+			position: relative;
+			text-align: center;
+			z-index: 1;
+		}
+
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+
+
+	}

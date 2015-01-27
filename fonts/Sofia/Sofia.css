@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Sofia-ExLight';
+  font-style: normal;
+  font-weight: 400;
+  src: url('Sofia_Extralight.eot');
+  src: url('Sofia_Extralight.eot?#iefix') format('embedded-opentype'),
+       url('Sofia_Extralight.woff') format('woff'),
+       url('Sofia_Extralight.ttf') format('truetype'),
+       url('Sofia_Extralight.svg#Sofia_Extralight') format('svg');
+}
+
+@font-face {
+  font-family: 'Sofia-Thin';
+  font-style: normal;
+  font-weight: 700;
+  src: url('Sofia_Thin.eot');
+  src: url('Sofia_Thin.eot?#iefix') format('embedded-opentype'),
+       url('Sofia_Thin.woff') format('woff'),
+       url('Sofia_Thin.ttf') format('truetype'),
+       url('Sofia_Thin.svg#Sofia_Thin') format('svg');
+}
+
+@font-face {
+  font-family: 'Sofia-Light';
+  font-style: normal;
+  font-weight: 1000;
+  src: url('Sofia_Light.eot');
+  src: url('Sofia_Light.eot?#iefix') format('embedded-opentype'),
+       url('Sofia_Light.woff') format('woff'),
+       url('Sofia_Light.ttf') format('truetype'),
+       url('Sofia_Light.svg#Sofia_Light') format('svg');
+}
