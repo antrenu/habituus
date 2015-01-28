@@ -132,6 +132,8 @@
 		position: absolute;
 		right: 0px;
 		text-align: center;
+        bottom: auto;
+        top: auto;
 	}
 
 	.navigation .menu ul {
