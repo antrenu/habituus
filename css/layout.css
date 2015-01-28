@@ -107,6 +107,13 @@
 		/* #.Navigation
 		================================================== */
 	
+        .navigation .menu li {
+            color: #000000;
+            cursor: pointer;
+            font-family: "Sofia-ExLight";
+            font-size: 20px;
+        }
+
 		.navigation .copyright {
 			bottom: 0px;
 			display: none;
