@@ -160,6 +160,11 @@
 		/* #.Work
 		================================================== */
 		
+        .work .stream {
+            margin-top: 20px;
+        }
+        
+        
 		section.work {
 			position: relative;
 		}
