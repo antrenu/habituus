@@ -110,7 +110,7 @@
         .header .logo {
             color: #000000;
             cursor: pointer;
-            display: inline-block;
+            display: none;
             float: left;
             font-family: "Sofia-light"
         
