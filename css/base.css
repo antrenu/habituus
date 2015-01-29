@@ -321,7 +321,7 @@
 
 /* #Loader
 ================================================== */
-
+<!--
 	.loader {
 		background-color: #ffffff;
 		background-image: url(../img/misc/loader.gif);
@@ -335,7 +335,7 @@
 		top: 0px;
 		z-index: 9999;
 	}
-
+-->
 /* #Misc
 ================================================== */
 

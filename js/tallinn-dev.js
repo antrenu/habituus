@@ -297,7 +297,7 @@ $(window).load(function() {
 	$('.work .header').eq(0).addClass("active");
 	$('.work .tab').eq(0).fadeIn("400");
 
-	$(".loader").delay(1000).fadeOut('slow');
+	$(".loader").delay(800).fadeOut('slow');
 
 });
 
