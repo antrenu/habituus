@@ -459,17 +459,17 @@ function openImage(image) {
 function animateIt() {
 	
 	//Animations
-	setTimeout(function(){$('.header').addClass('animated fadeInDown')},1300);
+	setTimeout(function(){$('.header').addClass('animated fadeInDown')},800);
     
-    setTimeout(function(){$('section.home .title').addClass('animated fadeInLeft')},1600);
-    setTimeout(function(){$('section.home .slogan').addClass('animated fadeInRight')},1600);
+    setTimeout(function(){$('section.home .title').addClass('animated fadeInLeft')},800);
+    setTimeout(function(){$('section.home .slogan').addClass('animated fadeInRight')},800);
 
-    setTimeout(function(){$('.page .content').addClass('animated fadeInRight')},1600);
+    setTimeout(function(){$('.page .content').addClass('animated fadeInRight')},800);
 
-    setTimeout(function(){$('section.work .navigate').addClass('animated fadeInLeft')},1600);
-    setTimeout(function(){$('section.work .stream').addClass('animated fadeInRight')},1600);
+    setTimeout(function(){$('section.work .navigate').addClass('animated fadeInLeft')},800);
+    setTimeout(function(){$('section.work .stream').addClass('animated fadeInRight')},800);
 
-    setTimeout(function(){$('section.blog .inner').addClass('animated fadeInUp')},1600);
+    setTimeout(function(){$('section.blog .inner').addClass('animated fadeInUp')},800);
     //Animations
 
 }
