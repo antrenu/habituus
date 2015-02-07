@@ -459,9 +459,9 @@ function openImage(image) {
 function animateIt() {
 	
 	//Animations
-	setTimeout(function(){$('.header').addClass('animated fadeInDown')},800);
+	setTimeout(function(){$('.header').addClass('animated fadeInDown')},0);
     
-    setTimeout(function(){$('section.home .title').addClass('animated fadeInLeft')},800);
+    setTimeout(function(){$('section.home .title').addClass('animated fadeInLeft')},0);
     setTimeout(function(){$('section.home .slogan').addClass('animated fadeInRight')},800);
 
     setTimeout(function(){$('.page .content').addClass('animated fadeInRight')},800);
