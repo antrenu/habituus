@@ -161,7 +161,7 @@ $(window).load(function() {
 		loadPortfolio(album);
 	});
 
-	$(".loader").delay(1000).fadeOut('slow');
+	$(".loader").delay(800).fadeOut('slow');
 	animateIt();
 
 });
