@@ -464,12 +464,12 @@ function animateIt() {
     setTimeout(function(){$('section.home .title').addClass('animated fadeInLeft')},0);
     setTimeout(function(){$('section.home .slogan').addClass('animated fadeInRight')},800);
 
-    setTimeout(function(){$('.page .content').addClass('animated fadeInRight')},800);
+    setTimeout(function(){$('.page .content').addClass('animated fadeInRight')},0);
 
-    setTimeout(function(){$('section.work .navigate').addClass('animated fadeInLeft')},800);
-    setTimeout(function(){$('section.work .stream').addClass('animated fadeInRight')},800);
+    setTimeout(function(){$('section.work .navigate').addClass('animated fadeInLeft')},0);
+    setTimeout(function(){$('section.work .stream').addClass('animated fadeInRight')},0);
 
-    setTimeout(function(){$('section.blog .inner').addClass('animated fadeInUp')},800);
+    setTimeout(function(){$('section.blog .inner').addClass('animated fadeInUp')},0);
     //Animations
 
 }
