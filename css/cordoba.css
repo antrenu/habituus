@@ -141,7 +141,7 @@
 	.navigation .menu li {
 		color: #000000;
 		cursor: pointer;
-		font-family: "Sofia-Exlight";
+		font-family: "Forum, cursive";
 		font-size: 40px;
 		line-height: 50px;
 		margin-bottom: 15px;
@@ -301,6 +301,7 @@
 
 	.home .slogan {
 		color: #000000;
+        font-family: "Sofia-Light";
 		font-size: 14px;
 		letter-spacing: 0.3em;
 		text-transform: uppercase;
@@ -822,6 +823,34 @@
 	}
 
 
+/* #Stockists
+================================================== */
+
+	section.stockists .cover {
+        background-image: url(../img/backgrounds/stockists.jpg);
+	}
+
+	section.stockists .info {
+		margin-top: 45px;
+		text-align: left;
+	}
+
+	section.stockists .link {
+        color: #a1a1a1;
+		cursor: pointer;
+		display: block;
+		font-size: 13px;
+		letter-spacing: 0.2em;
+		margin-bottom: 10px;
+		text-transform: uppercase;
+	}
+
+	section.stockists span {
+		color: #000000;
+        letter-spacing: 0.2em;
+	}
+
+
 /* #Contact
 ================================================== */
 
@@ -835,18 +864,18 @@
 	}
 
 	section.contact .link {
-		color: #a3a3a3;
+        color: #a1a1a1;
 		cursor: pointer;
 		display: block;
-		font-size: 14px;
-        
-		letter-spacing: 0.3em;
+		font-size: 13px;
+		letter-spacing: 0.2em;
 		margin-bottom: 10px;
 		text-transform: uppercase;
 	}
 
 	section.contact span {
 		color: #000000;
+        letter-spacing: 0.2em;
 	}
 
 

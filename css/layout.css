@@ -93,7 +93,7 @@
 			left: 0px;
 			padding: 20px;
 			right: 0px;
-			text-align: center;
+			text-align: left;
 			top: 0px;
 		}
 
@@ -281,7 +281,7 @@
 		}
 
 		.blog .post .info {
-			background-color: #b0b0b0b0;
+			background-color: #b0b0b0;
 			bottom: 0px;
 			cursor: pointer;
 			left: 0px;
@@ -343,6 +343,20 @@
 			text-align: center;
 		}
 
+        /* #.Stockists
+		================================================== */
+
+		section.stockists .cover {
+			background-image: none;
+		}
+
+		section.stockists .info {
+			margin-bottom: 45px;
+			margin-top: 45px;
+			text-align: center;
+		}
+        
+        
 		/* #.Footer
 		================================================== */
 
