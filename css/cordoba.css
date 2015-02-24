@@ -141,7 +141,7 @@
 	.navigation .menu li {
 		color: #000000;
 		cursor: pointer;
-		font-family: "Forum, cursive";
+		font-family: "Forum";
 		font-size: 40px;
 		line-height: 50px;
 		margin-bottom: 15px;
@@ -165,7 +165,7 @@
 
 	.navigation .copyright {
 		bottom: 0px;
-		color: #a2a2a2;
+		color: #b0b0b0;
         font-family: "Sofia-Light";
 		font-size: 14px;
 		letter-spacing: 0.1em;
@@ -190,7 +190,7 @@
 	}
 
 	.navigation .socials li {
-		color: #a2a2a2;
+		color: #b0b0b0;
 		cursor: pointer;
 		font-size: 14px;
 		letter-spacing: 0.1em;
