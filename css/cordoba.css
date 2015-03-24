@@ -280,7 +280,7 @@
 	}
 
 	.home .overlay {
-		background: rgba(255,255,255,0.8);
+		background: rgba(255,255,255, 1);
         <!-- 동영상 흐릿하게 -->
 	}
 
@@ -290,11 +290,11 @@
 
 	.home .title {
 		color: #000000;
-		font-family: "Sofia-Light";
-		font-size: 14px;
+		font-family: "Sofia-ExLight";
+		font-size: 70px;
 		font-weight: 400;
 		letter-spacing: 0.075em;
-		line-height: 100px;
+		line-height: 10px;
 		margin-bottom: 25px;
 		text-transform: uppercase;
 	}
@@ -302,7 +302,16 @@
 	.home .slogan {
 		color: #000000;
         font-family: "Sofia-Light";
-		font-size: 14px;
+		font-size: 15px;
+		letter-spacing: 0.3em;
+        margin-bottom: 60px;
+		text-transform: uppercase;
+	}
+
+    .home .slogan2 {
+        color: #000000;
+        font-family: "Sofia-ExLight";
+		font-size: 15px;
 		letter-spacing: 0.3em;
 		text-transform: uppercase;
 	}
