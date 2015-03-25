@@ -257,9 +257,9 @@ function fixSizes() {
 
 
 	//FIX HOME PAGE TEXT
-	var home = $(".home .title").width() - 25;
-	var slog = $(".home .slogan .phrase").width() + 50;
-	$(".home .slogan .before, .home .slogan .after").css('width', (home - slog) / 2);
+//	var home = $(".home .title").width() - 25;
+//	var slog = $(".home .slogan .phrase").width() + 50;
+//	$(".home .slogan .before, .home .slogan .after").css('width', (home - slog) / 2);
 
 
 	//FIX HOME PAGE SLIDER
