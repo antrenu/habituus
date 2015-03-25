@@ -158,6 +158,28 @@
 		/* #.Home
 		================================================== */
 
+        .home .title {
+            font-size: 46px;
+            font-weight: 400;
+            letter-spacing: 0em;
+            line-height: 10px;
+            margin-bottom: 10px;
+        }
+        
+        .home .slogan {
+            font-size: 9px;
+            letter-spacing: 0.3em;
+            margin-bottom: 60px;
+            text-transform: uppercase;
+		}
+        
+        .home .slogan2 {
+            font-size: 11px;
+            letter-spacing: 0.36em;
+            margin-bottom: 60px;
+            text-transform: uppercase;
+		}
+        
 		.home .discover {
 			bottom: 40px;
 		}

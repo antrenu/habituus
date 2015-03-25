@@ -293,7 +293,7 @@
 		font-family: "Sofia-ExLight";
 		font-size: 70px;
 		font-weight: 400;
-		letter-spacing: 0.075em;
+		letter-spacing: 0em;
 		line-height: 10px;
 		margin-bottom: 25px;
 		text-transform: uppercase;
@@ -301,16 +301,16 @@
 
 	.home .slogan {
 		color: #000000;
-        font-family: "Sofia-Light";
-		font-size: 15px;
-		letter-spacing: 0.3em;
+        font-family: "Sofia-ExLight";
+		font-size: 15.5px;
+		letter-spacing: 0.2em;
         margin-bottom: 60px;
 		text-transform: uppercase;
 	}
 
     .home .slogan2 {
         color: #000000;
-        font-family: "Sofia-ExLight";
+        font-family: "Sofia- ExLight";
 		font-size: 15px;
 		letter-spacing: 0.3em;
 		text-transform: uppercase;
